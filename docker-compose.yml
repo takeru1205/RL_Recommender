@@ -2,7 +2,7 @@ version: '3'
 services:
         python3:
                 build: .
-                container_name: 'rl_tmp'
+                container_name: 'rl_rec'
                 working_dir: '/app'
                 tty: true
                 environment:
